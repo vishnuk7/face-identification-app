@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600');
+
+:root{
+	--color-white:#fff;
+	--color-black:#000;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli',sans-serif;
+  color: var(--color-white);
+  font-weight: 400;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
